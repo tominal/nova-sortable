@@ -12,7 +12,7 @@
     "php": ">=7.3.0",
     "spatie/eloquent-sortable": "^3.10.0|^4.0",
     "laravel/nova": "^3.0|^4.0",
-    "optimistdigital/nova-translations-loader": "^3.0.0"
+    "optimistdigital/nova-translations-loader": "dev-nova4"
   },
   "autoload": {
     "psr-4": {
@@ -26,6 +26,12 @@
       ]
     }
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:tominal/nova-translations-loader"
+    }
+  ],
   "config": {
     "sort-packages": true
   },
